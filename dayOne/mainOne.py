@@ -34,7 +34,7 @@ if __name__ == '__main__':
     DigitArray = []
     sumOfAll = 0
     stringer = ""
-    with open('listNumberDigits.txt') as f:
+    with open('dayOne/listNumberDigits.txt') as f:
         [EachLine.append(line) for line in f.readlines()]
 
     for lines in EachLine:
